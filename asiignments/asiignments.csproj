@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>asiignments.switchcase2</StartupObject>
+    <StartupObject>asiignments.taxi</StartupObject>
   </PropertyGroup>
 
 </Project>
