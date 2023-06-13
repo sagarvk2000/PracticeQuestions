@@ -35,13 +35,13 @@ namespace asiignments
                     if (time=='d')
                     {
                         Console.WriteLine("Available");
-                        double charges = km * 0.70;
+                        double charges = (km * 0.79)+0.70;
 
                         Console.WriteLine("the charges for day =" + charges);
                     }
                     else if(time=='n')
                     {
-                        double charges = km * 0.90;
+                        double charges = (km * 0.90)+0.70;
                         Console.WriteLine("The charges for day is ="+charges);
                     }
                     else
@@ -54,7 +54,7 @@ namespace asiignments
                     if (km >= 20 && time=='d')
                     {
                         Console.WriteLine("Available");
-                        double rate = km * 0.79;
+                        double rate = km * 0.09;
                         Console.WriteLine("the charges for day =" + rate);
                     }
                     else if (km >= 20 && time=='n')
