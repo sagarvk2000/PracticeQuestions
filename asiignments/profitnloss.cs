@@ -12,17 +12,24 @@ namespace asiignments
     {
         static void Main(string[] args)
         {
-            Double profit, loss,cp,sp;
+            Double profit,cp,sp;
 
             Console.WriteLine("Enter cost price and selling price =");
             cp = Convert.ToDouble(Console.ReadLine());
             sp = Convert.ToDouble(Console.ReadLine());
 
-            profit = sp - cp;
-            Console.WriteLine("The profit is ="+profit);
+            if(sp>cp)
+            {
+                profit = sp - cp;
+                Console.WriteLine("The profit is =" + profit);
+            }
+            else
+            {
+                Console.WriteLine("loss");
+            }
+            
 
-            loss = cp - sp;
-            Console.WriteLine("The loss is ="+loss);
+            
         }
     }
 }

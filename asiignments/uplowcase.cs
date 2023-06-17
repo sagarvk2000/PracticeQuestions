@@ -18,9 +18,13 @@ namespace asiignments
             {
                 Console.WriteLine("It is a lower case");
             }
-            else
+            else if (ch >= 'A' && ch <= 'Z')    
             {
                 Console.WriteLine("It is upper case");
+            }
+            else
+            {
+                Console.WriteLine("This is not alphabet");
             }
         }
     }
